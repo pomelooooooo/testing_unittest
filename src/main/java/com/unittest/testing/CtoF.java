@@ -1,23 +1,25 @@
 package com.unittest.testing;
 
 public class CtoF {
-	private double celcius;
 	
-	public double getCelcius() {
-		return celcius;
+	private double celsius;
+	
+	public double getCelsius() {
+		return celsius;
 	}
 
-	public void input(double celcius) {
-		this.celcius = celcius;
+	public void input(double celsius) {
+		this.celsius = celsius;
+		
 	}
-	
-	public boolean isBound(double celcius) {
-		boolean isResult;
-		if(celcius >= -1000 && celcius <= 1000) {
-			isResult= true;
+	public boolean isBound(double celsius) {
+		boolean isresult;
+		if(celsius  >= -1000 && celsius <= 1000) {
+			isresult = true;
 		}else {
-			isResult = false;
+			isresult = false;
 		}
-		return isResult;
+		return isresult ;
 	}
+
 }
