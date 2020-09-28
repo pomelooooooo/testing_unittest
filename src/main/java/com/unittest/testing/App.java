@@ -2,8 +2,6 @@ package com.unittest.testing;
 
 import static org.junit.Assert.assertEquals;
 
-//import static org.junit.Assert.assertEquals;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,10 +11,10 @@ public class App
 {
 	CtoF object;
 	
-	@Before
-	public void newClassFahrenheit() {
-		object = new CtoF();
-	}
+//	@Before
+//	public void newClassFahrenheit() {
+//		object = new CtoF();
+//	}
 	
 //	@Test
 //	public void testResult0Input0() {
