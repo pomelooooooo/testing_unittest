@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
+
+
 public class App 
 {
 	CtoF object;
@@ -161,14 +163,14 @@ public class App
 		assertEquals(expected, actual);
 	}
 	
-	@Test
-	public void testResulTrueInput1001() {
-		double input = 1001;
-		boolean expected = false;
-		boolean actual = object.isBound(input);
-		assertEquals(expected, actual);
-	}
-	
+//	@Test
+//	public void testResulTrueInput1001() {
+//		double input = 1001;
+//		boolean expected = false;
+//		boolean actual = object.isBound(input);
+//		assertEquals(expected, actual);
+//	}
+//	
 	@Test
 	public void testResulTrueInputMinus1001() {
 		double input = -1001;
