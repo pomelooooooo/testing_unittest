@@ -33,6 +33,6 @@ public class Fahrenheit {
 	public String toString() {
 		double fahrenheit = this.getFahrenheit();
 		double celcius = this.getCelcius();
-		return Math.round(celcius)+" celcius = "+Math.round(fahrenheit)+" fahrenhiet";
+		return Math.round(celcius)+" celcius = "+String.format("%.2f",fahrenheit)+" fahrenhiet";
 	}
 }
